@@ -1,11 +1,11 @@
-import { StrictMode } from "react";
-import { createRoot } from "react-dom/client";
-import { BrowserRouter, Route, Routes } from "react-router";
-import { ChakraProvider, defaultSystem } from "@chakra-ui/react";
+import { StrictMode } from "react"
+import { createRoot } from "react-dom/client"
+import { BrowserRouter, Route, Routes } from "react-router"
+import { ChakraProvider, defaultSystem } from "@chakra-ui/react"
 
-import App from "./App.tsx";
-import Navbar from "./components/Navbar.tsx";
-import "./style.css";
+import App from "./App.tsx"
+import Navbar from "./components/Navbar.tsx"
+import "./style.css"
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
@@ -17,5 +17,5 @@ createRoot(document.getElementById("root")!).render(
         </Routes>
       </BrowserRouter>
     </ChakraProvider>
-  </StrictMode>
-);
+  </StrictMode>,
+)

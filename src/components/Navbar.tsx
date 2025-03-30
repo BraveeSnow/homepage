@@ -1,5 +1,5 @@
-import { Flex, HStack, Text } from "@chakra-ui/react";
-import { Link } from "react-router";
+import { Flex, HStack, Text } from "@chakra-ui/react"
+import { Link } from "react-router"
 
 function Navbar() {
   return (
@@ -12,13 +12,19 @@ function Navbar() {
       >
         <HStack>
           <Text color={"lightgreen"}>Snow's World</Text>
-          <Link className="navlink" to="/">Home</Link>
-          <Link className="navlink" to="/projects">Projects</Link>
-          <Link className="navlink" to="/contact">Contact Me</Link>
+          <Link className="navlink" to="/">
+            Home
+          </Link>
+          <Link className="navlink" to="/projects">
+            Projects
+          </Link>
+          <Link className="navlink" to="/contact">
+            Contact Me
+          </Link>
         </HStack>
       </Flex>
     </>
-  );
+  )
 }
 
-export default Navbar;
+export default Navbar
