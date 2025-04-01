@@ -12,12 +12,14 @@ const config = defineConfig({
         // dark colors
         background: { value: "#2e3440" },
         surface0: { value: "#3b4252" },
+        surface1: { value: "#434c5e" },
 
         // blues
         accent: { value: "#88c0d0" },
       },
       fonts: {
         body: { value: "Space Grotesk, sans-serif" },
+        heading: { value: "Space Grotesk, sans-serif" },
       },
     },
   },
