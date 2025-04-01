@@ -4,22 +4,37 @@ import { Link } from "react-router"
 function Navbar() {
   return (
     <>
-      <Flex
-        background={"black"}
-        borderBottom={"1px solid lightgreen"}
-        direction={"row"}
-        paddingLeft={"1em"}
-      >
+      <Flex background={"surface0"} direction={"row"} paddingLeft={4}>
         <HStack>
-          <Text color={"lightgreen"}>Snow's World</Text>
+          <Text color={"accent"} fontSize={"lg"}>
+            Icepick
+          </Text>
           <Link className="navlink" to="/">
-            Home
+            <Text
+              p={[4, 3]}
+              fontSize={"lg"}
+              _hover={{ bg: "accent", color: "background" }}
+            >
+              Home
+            </Text>
           </Link>
           <Link className="navlink" to="/projects">
-            Projects
+            <Text
+              p={[4, 3]}
+              fontSize={"lg"}
+              _hover={{ bg: "accent", color: "background" }}
+            >
+              Portfolio
+            </Text>
           </Link>
           <Link className="navlink" to="/contact">
-            Contact Me
+            <Text
+              p={[4, 3]}
+              fontSize={"lg"}
+              _hover={{ bg: "accent", color: "background" }}
+            >
+              Contact Me
+            </Text>
           </Link>
         </HStack>
       </Flex>
